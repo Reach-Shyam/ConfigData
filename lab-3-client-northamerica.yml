@@ -1,2 +1,5 @@
 ---
 lucky-word: abcd
+wordConfig:
+  luckyWord: abcd1
+  preamble: xyz1

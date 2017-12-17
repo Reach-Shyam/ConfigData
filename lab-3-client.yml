@@ -8,7 +8,7 @@ spring:
 
 logging:
   level:
-    com.udemy: DEBUG
+    com.udemy: ERROR
   pattern:
     console: "[%-5level] %d{yyyy-MM-dd HH:mm:ss.SSS} [%t] %c{1} - %msg%n"
 

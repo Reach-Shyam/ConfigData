@@ -1,0 +1,18 @@
+---
+spring:
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: guest
+    password: guest
+
+logging:
+  level:
+    com.udemy: ERROR
+  pattern:
+    console: "[%-5level] %d{yyyy-MM-dd HH:mm:ss.SSS} [%t] %c{1} - %msg%n"
+
+lucky-word: "Irish"
+wordConfig:
+  luckyWord: abcde999
+  preamble: xyza999
